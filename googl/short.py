@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import urllib, urllib2, json
+import urllib, urllib2
+from django.utils import simplejson as json
 from django.core.validators import URLValidator, ValidationError
 
 
